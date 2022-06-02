@@ -5,7 +5,8 @@ const router = express.Router()
 
 router
     .get('/plans', plansController.getAllPlans)
-    .post('/beneficiaries', plansController.addBeneficiaries)
+    .post('/view-prices', plansController.viewPrices)
+    .post('/add-beneficiaries', plansController.addBeneficiaries)
 
 
     

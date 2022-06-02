@@ -1,0 +1,21 @@
+[
+  {
+    "beneficiaries": [
+      {
+        "quantity": 3,
+        "planCode": 1,
+        "beneficiaries": [
+          { "age": 17, "name": "Luiz" },
+          { "age": 40, "name": "Roberta" },
+          { "age": 45, "name": "Uepa" }
+        ]
+      }
+    ],
+    "beneficiariesPrices": [
+      { "age": 17, "price": 9 },
+      { "age": 40, "price": 11 },
+      { "age": 45, "price": 14 },
+      { "total": 34 }
+    ]
+  }
+]
